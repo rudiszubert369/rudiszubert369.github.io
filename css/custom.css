@@ -67,9 +67,76 @@ a:hover {
 
 
 p, a {
-  font-family: myriad-pro, sans-serif;
+  font-family: myriad-pro, sans-serif!important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: myriad-pro-condensed, sans-serif;
+  font-family: myriad-pro-condensed, sans-serif!important;
 }
+
+
+@media screen and (min-width: 768px) {
+  .g-py-18--md {
+      padding-top: 10px !important;
+      padding-bottom: 10px !important;
+  }
+}
+
+.w-100 {
+  width: 75%!important;
+}
+
+@media screen and (max-width: 990px) {
+  .w-100 {
+    width: 100%!important
+  }
+}
+
+
+.g-bg-primary-opacity-0_8--before::after, .g-bg-primary-opacity-0_8--after::after {
+  background-color: rgba(0, 168, 255, 0.78)!important
+}
+
+.my-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+a {
+  color: #00a8ff;
+  font-weight: 700;
+}
+
+a:hover {
+  color:black;
+}
+
+.nav-link {
+  color: #00a8ff;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+
+.call-to-action {
+  padding-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+
+.main-site-link {
+  color: #FF2A90;
+}
+
+
+
+
+
+
+
+
+
+
