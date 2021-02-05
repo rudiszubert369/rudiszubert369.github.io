@@ -58,20 +58,20 @@ h1, h2, h3, h4, h5, h6 {
   Highlight Color
 ------------------------------------*/
 ::-moz-selection {
-  color: #fff;
-  background-color: #72c02c; }
+  color: #fffc00;
+  background-color: #00a8ff; }
 
 ::selection {
-  color: #fff;
-  background-color: #72c02c; }
+  color: #fffc00;
+  background-color: #00a8ff; }
 
 .g-bg-primary ::-moz-selection {
-  color: #72c02c;
-  background-color: #fff; }
+  color: #00a8ff;
+  background-color: #fffc00; }
 
 .g-bg-primary ::selection {
-  color: #72c02c;
-  background-color: #fff; }
+  color: #00a8ff;
+  background-color: #fffc00; }
 
 /*------------------------------------
   Alerts

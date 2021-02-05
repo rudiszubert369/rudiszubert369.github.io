@@ -53,3 +53,23 @@ a:hover {
 .u-go-to-v1 {
   background-color: #fffc00;
 }
+
+
+
+.g-color-gray-dark-v5 {
+  color: #000!important;
+}
+
+
+.u-heading-v2-1--bottom::after, .u-heading-v2-1--top::before, .u-heading-v2-2--bottom::after, .u-heading-v2-2--top::before, .u-heading-v2-3--bottom::after, .u-heading-v2-3--top::before, .u-heading-v2-4--bottom::after, .u-heading-v2-4--top::before, .u-heading-v2-5--bottom::after, .u-heading-v2-5--top::before, .u-heading-v2-6--bottom::after, .u-heading-v2-6--top::before, .u-heading-v2-7--bottom::after, .u-heading-v2-7--top::before {
+  border-color: #fffc00;
+}
+
+
+p, a {
+  font-family: myriad-pro, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: myriad-pro-condensed, sans-serif;
+}
