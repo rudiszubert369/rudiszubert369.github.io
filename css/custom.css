@@ -132,11 +132,39 @@ a:hover {
 }
 
 
+a:visited {
+  color: black;
+}
+
+
+#start-link {
+  color: white!important;
+}
+
+#start-link:visited {
+  color: white!important;
+}
+
+.border-custom {
+  border: 1px solid black;
+}
+
+.custom-padding-5rem-left {
+  padding-left: 5rem!important;
+}
+
+@media screen and (max-width: 990px) {
+  .custom-padding-5rem-left {
+    padding-left:   2.14286rem !important;
+  }
+
+}
 
 
 
-
-
-
+.g-bg-size-cover {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+}
 
 
