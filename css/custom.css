@@ -167,7 +167,9 @@ a:visited {
     background-repeat: no-repeat;
 }
 
-
+.nav-link:hover {
+  color:#00a8ff
+}
 
 
 .custom-align {
