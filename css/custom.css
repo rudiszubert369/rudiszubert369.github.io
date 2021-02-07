@@ -120,7 +120,7 @@ a:hover {
 }
 
 
-.call-to-action {
+.start-projektu {
   padding-top: 150px;
   margin-bottom: 100px;
 
@@ -168,7 +168,7 @@ a:visited {
 }
 
 .nav-link:hover {
-  color:#00a8ff
+  color:#00a8ff;
 }
 
 
@@ -178,6 +178,8 @@ a:visited {
 
 
 
-
+.bg-blue-custom {
+  background-color: #00a8ff;
+}
 
 
