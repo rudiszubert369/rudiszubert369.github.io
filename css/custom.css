@@ -182,4 +182,8 @@ a:visited {
   background-color: #00a8ff;
 }
 
-
+@media screen and (min-width: 768px){
+.custom-margin-process {
+  margin-top: 100px;
+}
+}
