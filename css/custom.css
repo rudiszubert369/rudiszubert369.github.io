@@ -204,3 +204,43 @@ a:visited {
 .nav-link {
   font-size: 14px;
 }
+
+
+#custom-line-color::after {
+  border-color:#00a8ff!important;
+}
+
+p {
+  text-align: justify!important;
+}
+
+a:visited {
+  color:#00a8ff
+}
+
+
+.custom-adress {
+  font-size: 17px;
+  text-align: left!important;
+  margin-bottom: 30px;;
+
+}
+
+.custom-adress a {
+  color: #fffc00;
+}
+
+
+.block-same-size {
+  max-height: 481px;
+}
+
+#start-projektu div {
+  padding: 63px;
+}
+
+#start-projektu {
+  margin-bottom: -80px;
+}
+
+
