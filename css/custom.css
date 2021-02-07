@@ -187,3 +187,20 @@ a:visited {
   margin-top: 100px;
 }
 }
+
+
+@media screen and (max-width: 570px){
+
+  .custom-logo-width {
+    width: 75px!important;
+  }
+
+  .align-justify {
+    text-align: justify!important;
+  }
+}
+
+
+.nav-link {
+  font-size: 14px;
+}
