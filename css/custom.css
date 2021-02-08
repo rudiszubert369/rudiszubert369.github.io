@@ -142,7 +142,7 @@ a:visited {
 }
 
 #start-link:visited {
-  color: white!important;
+  color: #00a8ff!important;
 }
 
 .border-custom {
@@ -255,5 +255,36 @@ a.anchor {
 #start-projektu {
   margin-bottom: -80px;
 }
+
+#start-link {
+  background-color: #fffc00!important;
+  color: #00a8ff!important;
+
+    border-radius: 100px;
+    padding: 25px;
+
+}
+
+
+
+
+
+@media screen and (max-width: 770px) {
+  .custom-flexbox {
+    flex-direction: column-reverse;
+
+  }
+
+  .custom-margin-contact {
+    margin-bottom: 50px;
+  }
+}
+
+
+
+
+
+
+
 
 
