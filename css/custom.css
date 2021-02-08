@@ -128,7 +128,7 @@ a:hover {
 
 
 .main-site-link {
-  color: #FF2A90;
+  color: #FF2A90!important;
 }
 
 
@@ -220,16 +220,29 @@ a:visited {
 
 
 .custom-adress {
-  font-size: 17px;
-  text-align: left!important;
-  margin-bottom: 30px;;
-
+  font-size: 2em;
+text-align: left!important;
+margin-bottom: 100px;
+margin-top: 50px;
 }
 
 .custom-adress a {
   color: #fffc00;
 }
 
+@media screen and (max-width: 560px) {
+  .custom-adress {
+    font-size: 1.4em;
+    text-align: justify!important;
+  }
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -130px;
+    visibility: hidden;
+}
 
 .block-same-size {
   max-height: 481px;
